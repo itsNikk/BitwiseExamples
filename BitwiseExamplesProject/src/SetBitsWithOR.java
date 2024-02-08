@@ -1,7 +1,7 @@
 public class SetBitsWithOR {
     public static void main(String[] args) {
         int numero = 42;
-        //Puoi sostituire con il numero desiderato di bit da mantenere a 0
+        //Si può sostituire con il numero desiderato
         int n = 4;
 
         //Solo un semplice controllo per evitare di sforare.
