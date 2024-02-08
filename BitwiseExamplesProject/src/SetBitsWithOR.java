@@ -1,7 +1,7 @@
 public class SetBitsWithOR {
     public static void main(String[] args) {
         int numero = 42;
-            
+
         //Si può sostituire con il numero desiderato di bit da reimpostare
         int n = 4;
 
