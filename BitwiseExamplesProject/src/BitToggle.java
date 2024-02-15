@@ -3,6 +3,7 @@ public class BitToggle {
         int n = 42;
         int bitToToggle = 3;
 
+        // bitToToggle - 1 perchè altrimenti si setterebbe il bit dopo quello richiesto
         int mask = (1 << (bitToToggle - 1));
 
         System.out.println("Numero input:" + Integer.toBinaryString(n));
