@@ -13,6 +13,10 @@ public class LargestPowerOf2 {
         int largestPowerOf2 = 1;
         while ((largestPowerOf2 << 1) <= num) largestPowerOf2 <<= 1;
 
+        // parto da 1
+        // 1 <= numeroInserito?
+        // se si, << 1
+
         System.out.println("Il numero più grande minore o uguale a " + num + " e potenza di 2 è: " + largestPowerOf2);
     }
 }
