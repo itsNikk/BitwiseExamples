@@ -11,7 +11,7 @@ public class LargestPowerOf2 {
         int num = 257; // Esempio, potrebbe essere uno Scanner
 
         int largestPowerOf2 = 1;
-        while ((largestPowerOf2 << 1) <= num) largestPowerOf2 <<= 1;
+        while ((largestPowerOf2 << 1) <= num) largestPowerOf2 = largestPowerOf2 << 1;
 
         // parto da 1
         // 1 <= numeroInserito?
